@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Header from './header.js';
-import Navbar from './navbar.js';
+import Header from './components/header.js';
+import Navbar from './components/navbar.js';
 
 class App extends Component {
   render() {
