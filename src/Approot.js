@@ -43,7 +43,7 @@ const ApplicationRoot = ({ store }) => (
             <Route path="/news" component={AsyncNewsPage} />
             <Route path="/events" component={AsyncEventsPage} />
             <Route path="/forum" component={AsyncForumPage} />
-            <Route path="/" component={AsyncHomePage} />
+            <Route exact path="/" component={AsyncHomePage} />
           </Switch>
       </Router>
       )
