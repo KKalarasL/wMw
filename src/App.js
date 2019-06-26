@@ -1,10 +1,21 @@
 import React, { Component } from 'react';
 import Header from './header.js';
 import Navbar from './navbar.js';
-import Carousel from 'nuka-carousel';
+import Slider from "react-slick";
+import wood from "./images/wood.jpg"
 
 class App extends Component {
   render() {
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 5000,
+      pauseOnHover: true,
+    };
     return (
       <div style={{ width: '90%', height: 'auto', backgroundColor: '#dcdfe6b5', margin: '30px auto', paddingBottom: '40px', boxShadow: '5px 5px 5px black'}}>
         <Header/>
@@ -12,14 +23,20 @@ class App extends Component {
         <div style={{display: 'flex'}}>
           <div style={{width: '65%', height: '500px', margin: '45px 0px 0px 45px', borderRadius: '25px', boxShadow: '6px 6px 10px #fb4646', backgroundColor: '#000000c4'}}>
             <h3 style={{color: 'white', textAlign: 'center'}}>Latest News</h3>
-            <Carousel autoplay='true' wrapAround='true' slideWidth={1} initialSlideHeight={1} style={{margin: '20px auto', maxWidth: '1000px'}}>
-              <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide1" />
-              <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide2" />
-              <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide3" />
-              <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide4" />
-              <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide5" />
-              <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide6" />
-            </Carousel>
+        <Slider {...settings}>
+        <div style={{margin: '0px auto'}}>
+          <img src={wood} width="95%" height="400px" style={{margin: '0px auto'}}/>
+        </div>
+        <div style={{margin: '0px auto'}}>
+          <img src={wood} width="95%" height="400px" style={{margin: '0px auto'}}/>
+        </div>
+        <div style={{margin: '0px auto'}}>
+          <img src={wood} width="95%" height="400px" style={{margin: '0px auto'}}/>
+        </div>
+        <div style={{margin: '0px auto'}}>
+          <img src={wood} width="95%" height="400px" style={{margin: '0px auto'}}/>
+        </div>
+        </Slider>
           </div>
           <div style={{width: '25%', height: '500px', margin: '45px 3% 0px', borderRadius: '25px', boxShadow: '6px 6px 10px 5px #19cff9', backgroundColor: '#000000c4'}}>
             <h3 style={{color: 'white', textAlign: 'center'}}>Leaderboards</h3>

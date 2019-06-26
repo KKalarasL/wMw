@@ -28,86 +28,89 @@ class App extends Component {
       centerMode: true,
       slidesToShow: 1,
       slidesToScroll: 1,
+      autoplay: false
     };
     return (
       <div style={{ width: '90%', height: '1000px', backgroundColor: '#dcdfe6b5', marginLeft: 'auto', marginRight: 'auto', marginTop: '30px', marginBottom: '30px', boxShadow: '5px 5px 5px black'}}>
         <Header/>
         <Navbar/>
-        <div>
+        <div style={{width: '100%'}}>
         <h4 style={{textAlign: 'center'}}>First Slider</h4>
         <Slider {...settings}
           asNavFor={this.state.nav2}
           ref={slider => (this.slider1 = slider)}
         >
-          <div>
-            <h3 style={{margin: '0px auto', width: 'fit-content'}}><img src={wood}/></h3>
-          </div>
-          <div>
-            <h3 style={{margin: '0px auto', width: 'fit-content'}}><img src={wood}/></h3>
-          </div>
-          <div>
-            <h3 style={{margin: '0px auto', width: 'fit-content'}}><img src={wood}/></h3>
-          </div>
-          <div>
-            <h3 style={{margin: '0px auto', width: 'fit-content'}}><img src={wood}/></h3>
-          </div>
-          <div>
-            <h3 style={{margin: '0px auto', width: 'fit-content'}}><img src={wood}/></h3>
-          </div>
-          <div>
-            <h3 style={{margin: '0px auto', width: 'fit-content'}}><img src={wood}/></h3>
-          </div>
-          <div>
-            <h3 style={{margin: '0px auto', width: 'fit-content'}}><img src={wood}/></h3>
-          </div>
-          <div>
-            <h3 style={{margin: '0px auto', width: 'fit-content'}}><img src={wood}/></h3>
-          </div>
-          <div>
-            <h3 style={{margin: '0px auto', width: 'fit-content'}}><img src={wood}/></h3>
-          </div>
-          <div>
-            <h3 style={{margin: '0px auto', width: 'fit-content'}}><img src={wood}/></h3>
-          </div>
+            <div style={{margin: '0px auto', width: 'fit-content'}}>
+              <img src={wood} width="1120" height="524" style={{margin: '0px auto'}}/>
+            </div>
+            <div style={{margin: '0px auto', width: 'fit-content'}}>
+              <img src={wood} width="1120" height="524" style={{margin: '0px auto'}}/>
+            </div>
+            <div style={{margin: '0px auto', width: 'fit-content'}}>
+              <img src={wood} width="1120" height="524" style={{margin: '0px auto'}}/>
+            </div>
+            <div style={{margin: '0px auto', width: 'fit-content'}}>
+              <img src={wood} width="1120" height="524" style={{margin: '0px auto'}}/>
+            </div>
+            <div style={{margin: '0px auto', width: 'fit-content'}}>
+              <img src={wood} width="1120" height="524" style={{margin: '0px auto'}}/>
+            </div>
+            <div style={{margin: '0px auto', width: 'fit-content'}}>
+              <img src={wood} width="1120" height="524" style={{margin: '0px auto'}}/>
+            </div>
+            <div style={{margin: '0px auto', width: 'fit-content'}}>
+              <img src={wood} width="1120" height="524" style={{margin: '0px auto'}}/>
+            </div>
+            <div style={{margin: '0px auto', width: 'fit-content'}}>
+              <img src={wood} width="1120" height="524" style={{margin: '0px auto'}}/>
+            </div>
+            <div style={{margin: '0px auto', width: 'fit-content'}}>
+              <img src={wood} width="1120" height="524" style={{margin: '0px auto'}}/>
+            </div>
+            <div style={{margin: '0px auto', width: 'fit-content'}}>
+              <img src={wood} width="1120" height="524" style={{margin: '0px auto'}}/>
+            </div>
         </Slider>
-
-        <h4 style={{textAlign: 'center', marginTop: '15%'}}>Second Slider</h4>
+        </div>
+        <div>
+        <h4 style={{textAlign: 'center', marginTop: '5%'}}>Second Slider</h4>
         <Slider
           asNavFor={this.state.nav1}
           ref={slider => (this.slider2 = slider)}
           slidesToShow={5}
           swipeToSlide={true}
           focusOnSelect={true}
+
         >
           <div>
-            <h3 style={{width: '100px', height: '100px'}}><img src={wood}/></h3>
+            <img src={wood} width="180px" style={{margin: '0px auto'}}/>
           </div>
           <div>
-            <h3 style={{width: '100px', height: '100px'}}><img src={wood}/></h3>
+            <img src={wood} width="180px" style={{margin: '0px auto'}}/>
           </div>
           <div>
-            <h3 style={{width: '100px', height: '100px'}}><img src={wood}/></h3>
+            <img src={wood} width="180px" style={{margin: '0px auto'}}/>
           </div>
           <div>
-            <h3 style={{width: '100px', height: '100px'}}><img src={wood}/></h3>
+            <img src={wood} width="180px" style={{margin: '0px auto'}}/>
           </div>
           <div>
-            <h3 style={{width: '100px', height: '100px'}}><img src={wood}/></h3>
+            <img src={wood} width="180px" style={{margin: '0px auto'}}/>
           </div>
           <div>
-            <h3 style={{width: '100px', height: '100px'}}><img src={wood}/></h3>
+            <img src={wood} width="180px" style={{margin: '0px auto'}}/>
           </div>
           <div>
-            <h3 style={{width: '100px', height: '100px'}}><img src={wood}/></h3>
+            <img src={wood} width="180px" style={{margin: '0px auto'}}/>
           </div>
           <div>
-            <h3 style={{width: '100px', height: '100px'}}><img src={wood}/></h3>
+            <img src={wood} width="180px" style={{margin: '0px auto'}}/>
           </div>
           <div>
-            <h3 style={{width: '100px', height: '100px'}}><img src={wood}/></h3>
+            <img src={wood} width="180px" style={{margin: '0px auto'}}/>
           </div>
           <div>
-            <h3 style={{width: '100px', height: '100px'}}><img src={wood}/></h3>
+            <img src={wood} width="180px" style={{margin: '0px auto'}}/>
           </div>
         </Slider>
       </div>
