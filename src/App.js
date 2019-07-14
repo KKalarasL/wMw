@@ -41,16 +41,18 @@ class App extends Component {
           <div style={{width: '25%', height: '500px', margin: '45px 3% 0px', borderRadius: '25px', boxShadow: '6px 6px 10px 5px #19cff9', backgroundColor: '#000000c4'}}>
             <h3 style={{color: 'white', textAlign: 'center'}}>Leaderboards</h3>
             <ol style={{color: 'white'}}>
-              <li style={{height: '40px', paddingTop: '15px'}}>KKLStyl3:   1000</li>
-              <li style={{height: '40px'}}>                    KKLStyl3:   800</li>
-              <li style={{height: '40px'}}>                    KKLStyl3:   300</li>
-              <li style={{height: '40px'}}>                    KKLStyl3:   285</li>
-              <li style={{height: '40px'}}>                    KKLStyl3:   70</li>
-              <li style={{height: '40px'}}>                    KKLStyl3:   1000</li>
-              <li style={{height: '40px'}}>                    KKLStyl3:   800</li>
-              <li style={{height: '40px'}}>                    KKLStyl3:   300</li>
-              <li style={{height: '40px'}}>                    KKLStyl3:   285</li>
-              <li style={{height: '40px'}}>                    KKLStyl3:   70</li>
+              <li><div style={{display: 'flex', height: '30px'}}><p>KKLStyl3:</p><p style={{width: '67%', textAlign: 'right'}}>1000</p></div></li>
+              <li><div style={{display: 'flex', height: '30px'}}><p>KKLStyl3:</p><p style={{width: '67%', textAlign: 'right'}}>1000</p></div></li>
+              <li><div style={{display: 'flex', height: '30px'}}><p>KKLStyl3:</p><p style={{width: '67%', textAlign: 'right'}}>1000</p></div></li>
+              <li><div style={{display: 'flex', height: '30px'}}><p>KKLStyl3:</p><p style={{width: '67%', textAlign: 'right'}}>1000</p></div></li>
+              <li><div style={{display: 'flex', height: '30px'}}><p>KKLStyl3:</p><p style={{width: '67%', textAlign: 'right'}}>1000</p></div></li>
+              <li><div style={{display: 'flex', height: '30px'}}><p>KKLStyl3:</p><p style={{width: '67%', textAlign: 'right'}}>1000</p></div></li>
+              <li><div style={{display: 'flex', height: '30px'}}><p>KKLStyl3:</p><p style={{width: '67%', textAlign: 'right'}}>1000</p></div></li>
+              <li><div style={{display: 'flex', height: '30px'}}><p>KKLStyl3:</p><p style={{width: '67%', textAlign: 'right'}}>1000</p></div></li>
+              <li><div style={{display: 'flex', height: '30px'}}><p>KKLStyl3:</p><p style={{width: '67%', textAlign: 'right'}}>1000</p></div></li>
+              <li><div style={{display: 'flex', height: '30px'}}><p>KKLStyl3:</p><p style={{width: '67%', textAlign: 'right'}}>1000</p></div></li>
+              <li><div style={{display: 'flex', height: '30px'}}><p>KKLStyl3:</p><p style={{width: '67%', textAlign: 'right'}}>1000</p></div></li>
+              <li><div style={{display: 'flex', height: '30px'}}><p>KKLStyl3:</p><p style={{width: '67%', textAlign: 'right'}}>1000</p></div></li>
             </ol>
           </div>
         </div>
