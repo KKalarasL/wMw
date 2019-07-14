@@ -7,7 +7,9 @@ class App extends Component {
     return (
       <div style={{ width: '90%', height: 'auto', backgroundColor: '#dcdfe6b5', margin: '30px auto', paddingBottom: '10px', boxShadow: '5px 5px 5px black'}}>
         <Header/>
+        <hr style={{border: '1px solid #cc00ff', marginTop: '0px', marginBottom: '0px', boxShadow: '1px 1px 20px 2px #2f77ce'}}/>
         <Navbar/>
+        <hr style={{border: '1px solid #cc00ff', marginTop: '0px', marginBottom: '0px', boxShadow: '1px 1px 20px 2px #2f77ce'}}/>
         <div style={{width: '95%', height: '500px', margin: '45px auto', borderRadius: '25px', boxShadow: '6px 6px 10px #fb4646', backgroundColor: '#000000c4'}}>
           <h2 style={{color: 'white', textAlign: 'center', paddingTop: '5px'}}>This is a title</h2>
           <p style={{color: 'white', margin: '0px auto', width: 'inherit', height: '85%', overflowY: 'auto', paddingRight: '15px'}}>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
