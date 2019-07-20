@@ -18,3 +18,42 @@
     font-size: calc(10px + 2vmin);
     color: white;
   }
+
+  .overlay {
+    position: absolute; 
+    bottom: 4px; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.75); /* Black see-through */
+    color: #f1f1f1; 
+    width: auto;
+    transition: .5s ease;
+    opacity:1;
+    color: white;
+    font-size: 20px;
+    padding: 20px 20px 25px 20px;
+    text-align: center;
+    margin: 0px auto;
+  }
+
+  .slick-next {
+    right: 5px;
+  }
+
+  .slick-prev {
+    left: 5px;
+    z-index: 1;
+  }
+
+  .slick-dots {
+    bottom: 3px;
+  }
+
+  .slick-dots li button:before {
+    color: #19cff9;
+    opacity: 1;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: #cc00ff !important;
+    opacity: 1
+}

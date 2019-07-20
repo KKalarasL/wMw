@@ -10,7 +10,7 @@ class App extends Component {
         <hr style={{border: '1px solid #cc00ff', marginTop: '0px', marginBottom: '0px', boxShadow: '1px 1px 20px 2px #2f77ce'}}/>
         <Navbar/>
         <hr style={{border: '1px solid #cc00ff', marginTop: '0px', marginBottom: '0px', boxShadow: '1px 1px 20px 2px #2f77ce'}}/>
-        <div style={{width: '95%', height: '500px', margin: '45px auto', borderRadius: '25px', boxShadow: '6px 6px 10px #fb4646', backgroundColor: '#000000c4'}}>
+        <div style={{width: '95%', height: '500px', margin: '45px auto', borderRadius: '25px', boxShadow: '6px 6px 10px #fb4646', backgroundColor: '#000000', border: '1px solid #fb4646'}}>
           <h2 style={{color: 'white', textAlign: 'center', paddingTop: '5px'}}>This is a title</h2>
           <p style={{color: 'white', margin: '0px auto', width: 'inherit', height: '85%', overflowY: 'auto', paddingRight: '15px'}}>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
              Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
@@ -19,7 +19,7 @@ class App extends Component {
                The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
               The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
         </div>
-        <div style={{width: '95%', height: '500px', margin: '45px auto', borderRadius: '25px', boxShadow: '6px 6px 10px #19cff9', backgroundColor: '#000000c4'}}>
+        <div style={{width: '95%', height: '500px', margin: '45px auto', borderRadius: '25px', boxShadow: '6px 6px 10px #19cff9', backgroundColor: '#000000', border: '1px solid #19cff9'}}>
           <h2 style={{color: 'white', textAlign: 'center', paddingTop: '5px'}}>This is a title</h2>
           <p style={{color: 'white', margin: '0px auto', width: 'inherit', height: '85%', overflowY: 'auto', paddingRight: '15px'}}>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
              Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
@@ -28,7 +28,7 @@ class App extends Component {
                The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
               The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
         </div>
-        <div style={{width: '95%', height: '500px', margin: '45px auto', borderRadius: '25px', boxShadow: '6px 6px 10px #8900ff', backgroundColor: '#000000c4'}}>
+        <div style={{width: '95%', height: '500px', margin: '45px auto', borderRadius: '25px', boxShadow: '6px 6px 10px #8900ff', backgroundColor: '#000000', border: '1px solid #8900ff'}}>
           <h2 style={{color: 'white', textAlign: 'center', paddingTop: '5px'}}>This is a title</h2>
           <p style={{color: 'white', margin: '0px auto', width: 'inherit', height: '85%', overflowY: 'auto', paddingRight: '15px'}}>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
              Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
